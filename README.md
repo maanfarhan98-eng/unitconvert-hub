@@ -64,7 +64,8 @@ UnitConvert Hub is a fast, clean, professional unit-conversion website designed 
 UnitConvert Hub is architected with dedicated non-intrusive ad zones that do not break the converter UX or trigger Cumulative Layout Shift (CLS).
 
 ### 1. Google Search Console Verification
-Open `index.html` and add your verification meta tag inside `<head>`:
+Open `index.html` and add your verification meta tag inside `<head>
+<meta name="google-site-verification" content="QWD3dNM1XKZWlrRFBHRPxNyLUFcR6Z04bykL-RzAwl4" />`:
 ```html
 <meta name="google-site-verification" content="QWD3dNM1XKZWlrRFBHRPxNyLUFcR6Z04bykL-RzAwl4" />
 ```
