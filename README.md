@@ -65,8 +65,8 @@ UnitConvert Hub is architected with dedicated non-intrusive ad zones that do not
 
 ### 1. Google Search Console Verification
 Open `index.html` and add your verification meta tag inside `<head>
-<meta name="google-site-verification" content="QWD3dNM1XKZWlrRFBHRPxNyLUFcR6Z04bykL-RzAwl4" />`:
-```html
+<meta name="google-site-verification" content="QWD3dNM1XKZWlrRFBHRPxNyLUFcR6Z04bykL-RzAwl4" />
+
 <meta name="google-site-verification" content="QWD3dNM1XKZWlrRFBHRPxNyLUFcR6Z04bykL-RzAwl4" />
 ```
 Alternatively, upload your Google HTML verification file directly into the `/public/` directory.
