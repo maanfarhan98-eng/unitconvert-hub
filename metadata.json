@@ -1,0 +1,6 @@
+{
+  "name": "UnitConvert Hub",
+  "description": "Simple Conversions. Clear Results. Fast, accurate unit converters for weight, length, temperature, time, volume, and currency.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
