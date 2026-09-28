@@ -119,7 +119,7 @@ export default defineConfig({
 # VITE_EXCHANGE_RATE_API_KEY=""
 
 # Canonical site base URL
-VITE_SITE_URL="https://unitconverthub.com"
+VITE_SITE_URL="https://www.unitconvert-hub.online"
 `
   );
 
