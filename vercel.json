@@ -2,7 +2,7 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "framework": "vite",
   "cleanUrls": true,
-  "trailingSlash": true,
+  "trailingSlash": false,
   "rewrites": [
     {
       "source": "/((?!assets/|favicon\\.svg|robots\\.txt|sitemap\\.xml|.*\\..*).*)",
@@ -20,6 +20,10 @@
         {
           "key": "Cache-Control",
           "value": "public, max-age=3600, s-maxage=86400"
+        },
+        {
+          "key": "X-Robots-Tag",
+          "value": "all"
         }
       ]
     },
