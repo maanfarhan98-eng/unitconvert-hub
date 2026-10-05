@@ -59,7 +59,7 @@ export default function App() {
           '@context': 'https://schema.org',
           '@type': 'WebApplication',
           name: 'UnitConvert Hub',
-          url: 'https://www.unitconvert-hub.online/',
+          url: 'https://unitconvert-hub.online/',
           description:
             'Free instant unit conversion calculators for weight, length, temperature, time, volume, and currency.',
           applicationCategory: 'UtilityApplication',

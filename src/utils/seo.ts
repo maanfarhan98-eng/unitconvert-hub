@@ -28,7 +28,7 @@ export function updateSEO({
   metaDesc.setAttribute('content', description);
 
   // 3. Canonical URL
-  const baseUrl = 'https://www.unitconvert-hub.online';
+  const baseUrl = 'https://unitconvert-hub.online';
   const fullCanonicalUrl = `${baseUrl}${canonicalPath.startsWith('/') ? canonicalPath : `/${canonicalPath}`}`;
 
   let linkCanonical = document.querySelector('link[rel="canonical"]');
