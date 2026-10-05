@@ -1,5 +1,31 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
-  <rect width="32" height="32" rx="8" fill="#2563EB"/>
-  <path d="M7 11H25M25 11L20 6M25 11L20 16" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
-  <path d="M25 21H7M7 21L12 16M7 21L12 26" stroke="white" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <defs>
+    <linearGradient id="hubGrad" x1="32" y1="32" x2="480" y2="480" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#2563EB" />
+      <stop offset="100%" stop-color="#1D4ED8" />
+    </linearGradient>
+    <filter id="shadow" x="0" y="0" width="512" height="512" filterUnits="userSpaceOnUse">
+      <feDropShadow dx="0" dy="8" stdDeviation="12" flood-color="#0F172A" flood-opacity="0.25"/>
+    </filter>
+  </defs>
+  <!-- Rounded Base Icon Container -->
+  <rect x="24" y="24" width="464" height="464" rx="112" fill="url(#hubGrad)" />
+  <rect x="24" y="24" width="464" height="464" rx="112" stroke="#60A5FA" stroke-width="8" stroke-opacity="0.4" />
+  
+  <!-- Bidirectional Conversion Hub Arrows -->
+  <!-- Top Arrow (Left to Right, Amber/Cyan accents) -->
+  <path d="M120 188H392M392 188L308 104M392 188L308 272" 
+        stroke="#FFFFFF" 
+        stroke-width="44" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        filter="url(#shadow)" />
+        
+  <!-- Bottom Arrow (Right to Left) -->
+  <path d="M392 324H120M120 324L204 240M120 324L204 408" 
+        stroke="#38BDF8" 
+        stroke-width="44" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        filter="url(#shadow)" />
 </svg>
