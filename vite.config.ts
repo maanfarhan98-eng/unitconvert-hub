@@ -2,10 +2,11 @@ import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
 import {defineConfig} from 'vite';
+import {generateStaticRoutesPlugin} from './src/plugins/generateStaticRoutes';
 
 export default defineConfig(() => {
   return {
-    plugins: [react(), tailwindcss()],
+    plugins: [react(), tailwindcss(), generateStaticRoutesPlugin()],
     resolve: {
       alias: {
         '@': path.resolve(__dirname, '.'),
