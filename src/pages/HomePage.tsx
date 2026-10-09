@@ -48,7 +48,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenSearch }) 
       query.includes('money') ||
       query.includes('exchange')
     ) {
-      onNavigate('/currency-converter/');
+      onNavigate('/currency-converter');
     } else {
       // Trigger modal search
       onOpenSearch();
@@ -56,12 +56,12 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenSearch }) 
   };
 
   const exampleQueries = [
-    { label: '10 kg to lb', url: '/kilograms-to-pounds/' },
-    { label: '100 cm to inches', url: '/centimeters-to-inches/' },
-    { label: '25 C to F', url: '/celsius-to-fahrenheit/' },
-    { label: '5 liters to gallons', url: '/liters-to-gallons/' },
-    { label: '100 USD to EUR', url: '/currency-converter/' },
-    { label: '6 feet to meters', url: '/feet-to-meters/' }
+    { label: '10 kg to lb', url: '/kilograms-to-pounds' },
+    { label: '100 cm to inches', url: '/centimeters-to-inches' },
+    { label: '25 C to F', url: '/celsius-to-fahrenheit' },
+    { label: '5 liters to gallons', url: '/liters-to-gallons' },
+    { label: '100 USD to EUR', url: '/currency-converter' },
+    { label: '6 feet to meters', url: '/feet-to-meters' }
   ];
 
   const getCategoryIcon = (iconName: string) => {
@@ -159,7 +159,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenSearch }) 
               return (
                 <button
                   key={slug}
-                  onClick={() => onNavigate('/currency-converter/')}
+                  onClick={() => onNavigate('/currency-converter')}
                   className="p-4 bg-white border border-slate-200/90 rounded-xl hover:border-emerald-400 hover:shadow-md transition-all text-left group cursor-pointer"
                 >
                   <div className="flex items-center justify-between mb-2">
@@ -252,7 +252,7 @@ export const HomePage: React.FC<HomePageProps> = ({ onNavigate, onOpenSearch }) 
                       return (
                         <button
                           key={slug}
-                          onClick={() => onNavigate('/currency-converter/')}
+                          onClick={() => onNavigate('/currency-converter')}
                           className="w-full text-left px-2.5 py-1.5 rounded-lg text-xs font-semibold text-slate-700 hover:text-emerald-700 hover:bg-emerald-50 transition-colors flex items-center justify-between cursor-pointer"
                         >
                           <span>Live Currency Exchange</span>

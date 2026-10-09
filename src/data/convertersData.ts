@@ -5,7 +5,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'kilograms-to-pounds',
     slug: 'kilograms-to-pounds',
-    url: '/kilograms-to-pounds/',
+    url: '/kilograms-to-pounds',
     categoryId: 'weight',
     categoryName: 'Weight',
     fromUnit: { id: 'kg', name: 'Kilogram', symbol: 'kg', pluralName: 'Kilograms' },
@@ -71,7 +71,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'pounds-to-kilograms',
     slug: 'pounds-to-kilograms',
-    url: '/pounds-to-kilograms/',
+    url: '/pounds-to-kilograms',
     categoryId: 'weight',
     categoryName: 'Weight',
     fromUnit: { id: 'lb', name: 'Pound', symbol: 'lb', pluralName: 'Pounds' },
@@ -137,7 +137,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'ounces-to-grams',
     slug: 'ounces-to-grams',
-    url: '/ounces-to-grams/',
+    url: '/ounces-to-grams',
     categoryId: 'weight',
     categoryName: 'Weight',
     fromUnit: { id: 'oz', name: 'Ounce', symbol: 'oz', pluralName: 'Ounces' },
@@ -201,7 +201,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'grams-to-ounces',
     slug: 'grams-to-ounces',
-    url: '/grams-to-ounces/',
+    url: '/grams-to-ounces',
     categoryId: 'weight',
     categoryName: 'Weight',
     fromUnit: { id: 'g', name: 'Gram', symbol: 'g', pluralName: 'Grams' },
@@ -268,7 +268,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'centimeters-to-inches',
     slug: 'centimeters-to-inches',
-    url: '/centimeters-to-inches/',
+    url: '/centimeters-to-inches',
     categoryId: 'length',
     categoryName: 'Length',
     fromUnit: { id: 'cm', name: 'Centimeter', symbol: 'cm', pluralName: 'Centimeters' },
@@ -333,7 +333,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'inches-to-centimeters',
     slug: 'inches-to-centimeters',
-    url: '/inches-to-centimeters/',
+    url: '/inches-to-centimeters',
     categoryId: 'length',
     categoryName: 'Length',
     fromUnit: { id: 'in', name: 'Inch', symbol: 'in', pluralName: 'Inches' },
@@ -399,7 +399,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'feet-to-meters',
     slug: 'feet-to-meters',
-    url: '/feet-to-meters/',
+    url: '/feet-to-meters',
     categoryId: 'length',
     categoryName: 'Length',
     fromUnit: { id: 'ft', name: 'Foot', symbol: 'ft', pluralName: 'Feet' },
@@ -466,7 +466,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'meters-to-feet',
     slug: 'meters-to-feet',
-    url: '/meters-to-feet/',
+    url: '/meters-to-feet',
     categoryId: 'length',
     categoryName: 'Length',
     fromUnit: { id: 'm', name: 'Meter', symbol: 'm', pluralName: 'Meters' },
@@ -531,7 +531,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'meters-to-kilometers',
     slug: 'meters-to-kilometers',
-    url: '/meters-to-kilometers/',
+    url: '/meters-to-kilometers',
     categoryId: 'length',
     categoryName: 'Length',
     fromUnit: { id: 'm', name: 'Meter', symbol: 'm', pluralName: 'Meters' },
@@ -599,7 +599,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'kilometers-to-meters',
     slug: 'kilometers-to-meters',
-    url: '/kilometers-to-meters/',
+    url: '/kilometers-to-meters',
     categoryId: 'length',
     categoryName: 'Length',
     fromUnit: { id: 'km', name: 'Kilometer', symbol: 'km', pluralName: 'Kilometers' },
@@ -665,7 +665,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'celsius-to-fahrenheit',
     slug: 'celsius-to-fahrenheit',
-    url: '/celsius-to-fahrenheit/',
+    url: '/celsius-to-fahrenheit',
     categoryId: 'temperature',
     categoryName: 'Temperature',
     fromUnit: { id: 'c', name: 'Celsius', symbol: '°C', pluralName: 'Degrees Celsius' },
@@ -730,7 +730,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'fahrenheit-to-celsius',
     slug: 'fahrenheit-to-celsius',
-    url: '/fahrenheit-to-celsius/',
+    url: '/fahrenheit-to-celsius',
     categoryId: 'temperature',
     categoryName: 'Temperature',
     fromUnit: { id: 'f', name: 'Fahrenheit', symbol: '°F', pluralName: 'Degrees Fahrenheit' },
@@ -795,7 +795,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'minutes-to-hours',
     slug: 'minutes-to-hours',
-    url: '/minutes-to-hours/',
+    url: '/minutes-to-hours',
     categoryId: 'time',
     categoryName: 'Time',
     fromUnit: { id: 'min', name: 'Minute', symbol: 'min', pluralName: 'Minutes' },
@@ -860,7 +860,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'hours-to-minutes',
     slug: 'hours-to-minutes',
-    url: '/hours-to-minutes/',
+    url: '/hours-to-minutes',
     categoryId: 'time',
     categoryName: 'Time',
     fromUnit: { id: 'hr', name: 'Hour', symbol: 'hr', pluralName: 'Hours' },
@@ -926,7 +926,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'seconds-to-minutes',
     slug: 'seconds-to-minutes',
-    url: '/seconds-to-minutes/',
+    url: '/seconds-to-minutes',
     categoryId: 'time',
     categoryName: 'Time',
     fromUnit: { id: 'sec', name: 'Second', symbol: 'sec', pluralName: 'Seconds' },
@@ -993,7 +993,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'minutes-to-seconds',
     slug: 'minutes-to-seconds',
-    url: '/minutes-to-seconds/',
+    url: '/minutes-to-seconds',
     categoryId: 'time',
     categoryName: 'Time',
     fromUnit: { id: 'min', name: 'Minute', symbol: 'min', pluralName: 'Minutes' },
@@ -1060,7 +1060,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'liters-to-gallons',
     slug: 'liters-to-gallons',
-    url: '/liters-to-gallons/',
+    url: '/liters-to-gallons',
     categoryId: 'volume',
     categoryName: 'Volume',
     fromUnit: { id: 'l', name: 'Liter', symbol: 'L', pluralName: 'Liters' },
@@ -1151,7 +1151,7 @@ export const CONVERTERS: ConverterConfig[] = [
   {
     id: 'gallons-to-liters',
     slug: 'gallons-to-liters',
-    url: '/gallons-to-liters/',
+    url: '/gallons-to-liters',
     categoryId: 'volume',
     categoryName: 'Volume',
     fromUnit: { id: 'gal', name: 'Gallon', symbol: 'gal', pluralName: 'Gallons' },

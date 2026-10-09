@@ -107,7 +107,7 @@ export const SearchModal: React.FC<SearchModalProps> = ({ isOpen, onClose, onSel
           {
             title: 'Currency Converter',
             subtitle: 'USD, EUR, GBP, CAD, AUD, JPY, CNY, INR, DJF & more · Live Rates',
-            url: '/currency-converter/',
+            url: '/currency-converter',
             badge: 'Currency'
           }
         ]

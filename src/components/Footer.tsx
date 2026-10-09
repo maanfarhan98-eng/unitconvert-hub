@@ -42,7 +42,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <ul className="space-y-2 text-xs">
               <li>
                 <button
-                  onClick={() => onNavigate('/kilograms-to-pounds/')}
+                  onClick={() => onNavigate('/kilograms-to-pounds')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Kilograms to Pounds (kg to lb)
@@ -50,7 +50,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/pounds-to-kilograms/')}
+                  onClick={() => onNavigate('/pounds-to-kilograms')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Pounds to Kilograms (lb to kg)
@@ -58,7 +58,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/ounces-to-grams/')}
+                  onClick={() => onNavigate('/ounces-to-grams')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Ounces to Grams (oz to g)
@@ -66,7 +66,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/grams-to-ounces/')}
+                  onClick={() => onNavigate('/grams-to-ounces')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Grams to Ounces (g to oz)
@@ -74,7 +74,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/centimeters-to-inches/')}
+                  onClick={() => onNavigate('/centimeters-to-inches')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Centimeters to Inches (cm to in)
@@ -82,7 +82,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/inches-to-centimeters/')}
+                  onClick={() => onNavigate('/inches-to-centimeters')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Inches to Centimeters (in to cm)
@@ -90,7 +90,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/feet-to-meters/')}
+                  onClick={() => onNavigate('/feet-to-meters')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Feet to Meters (ft to m)
@@ -98,7 +98,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/meters-to-feet/')}
+                  onClick={() => onNavigate('/meters-to-feet')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Meters to Feet (m to ft)
@@ -115,7 +115,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <ul className="space-y-2 text-xs">
               <li>
                 <button
-                  onClick={() => onNavigate('/celsius-to-fahrenheit/')}
+                  onClick={() => onNavigate('/celsius-to-fahrenheit')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Celsius to Fahrenheit (°C to °F)
@@ -123,7 +123,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/fahrenheit-to-celsius/')}
+                  onClick={() => onNavigate('/fahrenheit-to-celsius')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Fahrenheit to Celsius (°F to °C)
@@ -131,7 +131,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/minutes-to-hours/')}
+                  onClick={() => onNavigate('/minutes-to-hours')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Minutes to Hours (min to hr)
@@ -139,7 +139,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/hours-to-minutes/')}
+                  onClick={() => onNavigate('/hours-to-minutes')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Hours to Minutes (hr to min)
@@ -147,7 +147,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/seconds-to-minutes/')}
+                  onClick={() => onNavigate('/seconds-to-minutes')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Seconds to Minutes (sec to min)
@@ -155,7 +155,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/minutes-to-seconds/')}
+                  onClick={() => onNavigate('/minutes-to-seconds')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Minutes to Seconds (min to sec)
@@ -163,7 +163,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/liters-to-gallons/')}
+                  onClick={() => onNavigate('/liters-to-gallons')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Liters to Gallons (US & Imperial)
@@ -171,7 +171,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/gallons-to-liters/')}
+                  onClick={() => onNavigate('/gallons-to-liters')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Gallons to Liters (gal to L)
@@ -188,7 +188,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             <ul className="space-y-2 text-xs">
               <li>
                 <button
-                  onClick={() => onNavigate('/currency-converter/')}
+                  onClick={() => onNavigate('/currency-converter')}
                   className="hover:text-white font-medium text-blue-400 transition-colors cursor-pointer"
                 >
                   Live Currency Converter
@@ -196,7 +196,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li className="pt-2 border-t border-slate-800">
                 <button
-                  onClick={() => onNavigate('/about/')}
+                  onClick={() => onNavigate('/about')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   About Us
@@ -204,7 +204,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/contact/')}
+                  onClick={() => onNavigate('/contact')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Contact
@@ -212,7 +212,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/privacy-policy/')}
+                  onClick={() => onNavigate('/privacy-policy')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Privacy Policy
@@ -220,7 +220,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/terms/')}
+                  onClick={() => onNavigate('/terms')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Terms of Service
@@ -228,7 +228,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               </li>
               <li>
                 <button
-                  onClick={() => onNavigate('/disclaimer/')}
+                  onClick={() => onNavigate('/disclaimer')}
                   className="hover:text-white transition-colors cursor-pointer"
                 >
                   Disclaimer & Rates

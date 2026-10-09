@@ -83,7 +83,7 @@ export const Header: React.FC<HeaderProps> = ({ currentUrl, onNavigate, onOpenSe
                     onClick={() => {
                       setCategoriesOpen(false);
                       if (cat.id === 'currency') {
-                        onNavigate('/currency-converter/');
+                        onNavigate('/currency-converter');
                       } else {
                         // Navigate to primary converter of this category
                         const firstConverter = cat.converters[0];
@@ -103,7 +103,7 @@ export const Header: React.FC<HeaderProps> = ({ currentUrl, onNavigate, onOpenSe
           </div>
 
           <button
-            onClick={() => onNavigate('/currency-converter/')}
+            onClick={() => onNavigate('/currency-converter')}
             className={`px-3 py-1.5 rounded-md hover:text-slate-900 hover:bg-slate-100 transition-colors cursor-pointer ${
               currentUrl.includes('currency') ? 'text-blue-600 bg-blue-50 font-semibold' : ''
             }`}
@@ -112,9 +112,9 @@ export const Header: React.FC<HeaderProps> = ({ currentUrl, onNavigate, onOpenSe
           </button>
 
           <button
-            onClick={() => onNavigate('/about/')}
+            onClick={() => onNavigate('/about')}
             className={`px-3 py-1.5 rounded-md hover:text-slate-900 hover:bg-slate-100 transition-colors cursor-pointer ${
-              currentUrl === '/about/' ? 'text-blue-600 bg-blue-50 font-semibold' : ''
+              currentUrl === '/about' ? 'text-blue-600 bg-blue-50 font-semibold' : ''
             }`}
           >
             About
@@ -158,7 +158,7 @@ export const Header: React.FC<HeaderProps> = ({ currentUrl, onNavigate, onOpenSe
             <button
               onClick={() => {
                 setMobileMenuOpen(false);
-                onNavigate('/currency-converter/');
+                onNavigate('/currency-converter');
               }}
               className="text-left px-3 py-2 text-sm font-medium rounded-lg text-slate-700 hover:bg-slate-100"
             >
@@ -167,7 +167,7 @@ export const Header: React.FC<HeaderProps> = ({ currentUrl, onNavigate, onOpenSe
             <button
               onClick={() => {
                 setMobileMenuOpen(false);
-                onNavigate('/about/');
+                onNavigate('/about');
               }}
               className="text-left px-3 py-2 text-sm font-medium rounded-lg text-slate-700 hover:bg-slate-100"
             >
@@ -176,7 +176,7 @@ export const Header: React.FC<HeaderProps> = ({ currentUrl, onNavigate, onOpenSe
             <button
               onClick={() => {
                 setMobileMenuOpen(false);
-                onNavigate('/contact/');
+                onNavigate('/contact');
               }}
               className="text-left px-3 py-2 text-sm font-medium rounded-lg text-slate-700 hover:bg-slate-100"
             >
@@ -192,7 +192,7 @@ export const Header: React.FC<HeaderProps> = ({ currentUrl, onNavigate, onOpenSe
               <button
                 onClick={() => {
                   setMobileMenuOpen(false);
-                  onNavigate('/kilograms-to-pounds/');
+                  onNavigate('/kilograms-to-pounds');
                 }}
                 className="text-left px-2.5 py-1.5 rounded text-slate-600 hover:text-blue-600 hover:bg-slate-50"
               >
@@ -201,7 +201,7 @@ export const Header: React.FC<HeaderProps> = ({ currentUrl, onNavigate, onOpenSe
               <button
                 onClick={() => {
                   setMobileMenuOpen(false);
-                  onNavigate('/pounds-to-kilograms/');
+                  onNavigate('/pounds-to-kilograms');
                 }}
                 className="text-left px-2.5 py-1.5 rounded text-slate-600 hover:text-blue-600 hover:bg-slate-50"
               >
@@ -210,7 +210,7 @@ export const Header: React.FC<HeaderProps> = ({ currentUrl, onNavigate, onOpenSe
               <button
                 onClick={() => {
                   setMobileMenuOpen(false);
-                  onNavigate('/centimeters-to-inches/');
+                  onNavigate('/centimeters-to-inches');
                 }}
                 className="text-left px-2.5 py-1.5 rounded text-slate-600 hover:text-blue-600 hover:bg-slate-50"
               >
@@ -219,7 +219,7 @@ export const Header: React.FC<HeaderProps> = ({ currentUrl, onNavigate, onOpenSe
               <button
                 onClick={() => {
                   setMobileMenuOpen(false);
-                  onNavigate('/feet-to-meters/');
+                  onNavigate('/feet-to-meters');
                 }}
                 className="text-left px-2.5 py-1.5 rounded text-slate-600 hover:text-blue-600 hover:bg-slate-50"
               >
@@ -228,7 +228,7 @@ export const Header: React.FC<HeaderProps> = ({ currentUrl, onNavigate, onOpenSe
               <button
                 onClick={() => {
                   setMobileMenuOpen(false);
-                  onNavigate('/celsius-to-fahrenheit/');
+                  onNavigate('/celsius-to-fahrenheit');
                 }}
                 className="text-left px-2.5 py-1.5 rounded text-slate-600 hover:text-blue-600 hover:bg-slate-50"
               >
@@ -237,7 +237,7 @@ export const Header: React.FC<HeaderProps> = ({ currentUrl, onNavigate, onOpenSe
               <button
                 onClick={() => {
                   setMobileMenuOpen(false);
-                  onNavigate('/liters-to-gallons/');
+                  onNavigate('/liters-to-gallons');
                 }}
                 className="text-left px-2.5 py-1.5 rounded text-slate-600 hover:text-blue-600 hover:bg-slate-50"
               >

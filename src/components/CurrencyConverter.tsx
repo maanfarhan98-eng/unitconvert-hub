@@ -124,7 +124,7 @@ export const CurrencyConverter: React.FC<CurrencyConverterProps> = ({ onNavigate
       {/* Breadcrumbs */}
       <Breadcrumbs
         items={[
-          { label: 'Currency', url: '/currency-converter/' },
+          { label: 'Currency', url: '/currency-converter' },
           { label: `${fromCurrency} to ${toCurrency} Calculator` }
         ]}
         onNavigate={onNavigate}

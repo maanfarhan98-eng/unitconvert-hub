@@ -27,7 +27,7 @@ export default function App() {
   const navigate = (url: string) => {
     let target = url;
     if (!target.startsWith('/')) target = `/${target}`;
-    if (target !== '/' && !target.endsWith('/')) target = `${target}/`;
+    if (target !== '/' && target.endsWith('/')) target = target.slice(0, -1);
 
     if (typeof window !== 'undefined') {
       window.history.pushState(null, '', target);
@@ -80,7 +80,7 @@ export default function App() {
         title: 'Currency Converter — Live Exchange Rate Calculator',
         description:
           'Convert currencies using current exchange-rate data. Compare exchange rates and calculate the value of money in different currencies.',
-        canonicalPath: '/currency-converter/',
+        canonicalPath: '/currency-converter',
         structuredData: {
           '@context': 'https://schema.org',
           '@type': 'WebApplication',
@@ -99,14 +99,14 @@ export default function App() {
       return;
     }
 
-    // 3. Category overview routes (e.g. /weight-converters/)
+    // 3. Category overview routes (e.g. /weight-converters)
     if (pathWithoutSlashes.endsWith('-converters')) {
       const catName = pathWithoutSlashes.replace('-converters', '');
       const capitalized = catName.charAt(0).toUpperCase() + catName.slice(1);
       updateSEO({
         title: `${capitalized} Converters — UnitConvert Hub`,
         description: `Explore accurate and fast ${catName} conversion calculators. Instant formulas, conversion tables, and clear explanations.`,
-        canonicalPath: `/${pathWithoutSlashes}/`
+        canonicalPath: `/${pathWithoutSlashes}`
       });
       return;
     }
@@ -156,7 +156,7 @@ export default function App() {
         title: 'About Us — UnitConvert Hub',
         description:
           'Learn about the mission, engineering philosophy, and mathematical standards behind UnitConvert Hub.',
-        canonicalPath: '/about/'
+        canonicalPath: '/about'
       });
       return;
     }
@@ -166,7 +166,7 @@ export default function App() {
         title: 'Contact Us — UnitConvert Hub',
         description:
           'Get in touch with the UnitConvert Hub development team for inquiries, bug reports, and formula verifications.',
-        canonicalPath: '/contact/'
+        canonicalPath: '/contact'
       });
       return;
     }
@@ -176,7 +176,7 @@ export default function App() {
         title: 'Privacy Policy — UnitConvert Hub',
         description:
           'Our commitment to user privacy. We do not store or track your conversion data.',
-        canonicalPath: '/privacy-policy/'
+        canonicalPath: '/privacy-policy'
       });
       return;
     }
@@ -186,7 +186,7 @@ export default function App() {
         title: 'Terms of Service — UnitConvert Hub',
         description:
           'Terms and conditions for utilizing UnitConvert Hub conversion calculators and utilities.',
-        canonicalPath: '/terms/'
+        canonicalPath: '/terms'
       });
       return;
     }
@@ -196,7 +196,7 @@ export default function App() {
         title: 'Disclaimer & Financial Notice — UnitConvert Hub',
         description:
           'Important disclaimers regarding currency exchange rates and mathematical calculation models.',
-        canonicalPath: '/disclaimer/'
+        canonicalPath: '/disclaimer'
       });
       return;
     }

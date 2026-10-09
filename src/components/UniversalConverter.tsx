@@ -406,7 +406,7 @@ export const UniversalConverter: React.FC<UniversalConverterProps> = ({ config, 
 
           {/* Currency converter cross-link */}
           <button
-            onClick={() => onNavigate('/currency-converter/')}
+            onClick={() => onNavigate('/currency-converter')}
             className="p-3 bg-white hover:bg-blue-50 border border-slate-200 rounded-lg text-left text-slate-700 hover:text-blue-700 transition-colors flex items-center justify-between cursor-pointer group shadow-2xs"
           >
             <div>
