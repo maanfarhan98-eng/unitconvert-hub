@@ -205,7 +205,8 @@ export default function App() {
     updateSEO({
       title: 'Page Not Found — UnitConvert Hub',
       description: "The page you're looking for doesn't exist or may have moved.",
-      canonicalPath: normalizedPath
+      canonicalPath: normalizedPath,
+      noindex: true
     });
   }, [pathWithoutSlashes, normalizedPath]);
 

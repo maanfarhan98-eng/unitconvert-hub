@@ -4,6 +4,7 @@ export interface SEOProps {
   canonicalPath: string;
   ogType?: string;
   structuredData?: object | object[];
+  noindex?: boolean;
 }
 
 export function updateSEO({
@@ -12,6 +13,7 @@ export function updateSEO({
   canonicalPath,
   ogType = 'website',
   structuredData,
+  noindex = false,
 }: SEOProps) {
   if (typeof document === 'undefined') return;
 
@@ -27,7 +29,20 @@ export function updateSEO({
   }
   metaDesc.setAttribute('content', description);
 
-  // 3. Canonical URL
+  // 3. Robots meta (noindex only on explicit 404 pages, otherwise ensure indexable)
+  let metaRobots = document.querySelector('meta[name="robots"]');
+  if (noindex) {
+    if (!metaRobots) {
+      metaRobots = document.createElement('meta');
+      metaRobots.setAttribute('name', 'robots');
+      document.head.appendChild(metaRobots);
+    }
+    metaRobots.setAttribute('content', 'noindex, nofollow');
+  } else if (metaRobots) {
+    metaRobots.remove();
+  }
+
+  // 4. Canonical URL
   const baseUrl = 'https://www.unitconvert-hub.online';
   const fullCanonicalUrl = `${baseUrl}${canonicalPath.startsWith('/') ? canonicalPath : `/${canonicalPath}`}`;
 
